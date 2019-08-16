@@ -3,8 +3,8 @@ PowerShell Windows API stuff
 
 ## Managed to unmanaged conversion
 
-|Unmanaged | Managed|
-|----------|--------|
+| Unmanaged (Windows API) | Managed (.Net / PS)|
+|-----------|---------|
 |bool | bool|
 |byte | byte|
 |char,wchar | char|
