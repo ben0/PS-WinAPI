@@ -16,6 +16,9 @@ https://vimeo.com/49347561
 https://github.com/decoder-it/whoami-priv
 https://decoder.cloud/2018/02/02/getting-system/
 
+# Process injection 
+
+https://www.blackhat.com/us-19/briefings/schedule/#process-injection-techniques---gotta-catch-them-all-16010
 # Managed vs unmanaged code - PS Windows API
 https://posts.specterops.io/offensive-p-invoke-leveraging-the-win32-api-from-managed-code-7eef4fdef16d
 https://gist.github.com/matterpreter/6ddfbdcb9511dd6933e6d3474709c32c
