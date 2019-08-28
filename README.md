@@ -33,3 +33,13 @@ PowerShell Windows API stuff
 | decimal | System.Decimal 128 |
 | char | System.Char 16 - U +0000 to U +ffff |
 | bool | System.Boolean	True / False |
+
+
+byte
+sbyte
+short
+ushort
+int
+uint
+long
+ulong
