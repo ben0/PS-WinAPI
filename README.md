@@ -18,7 +18,6 @@ PowerShell Windows API stuff
 | long,word | long | 2 byte integer |
 | dword,uint64 | ulong | Double word 8 bytes | 
 | lpcvoid,void | void | ??? |
-
 | Unmanaged | managed | info |
 | char | sbyte	| System.Sbyte signed integer |
 | short int | short	| System.Int16 signed integer |
