@@ -34,11 +34,18 @@ PowerShell Windows API stuff
 | bool | System.Boolean	True / False |
 
 
-byte
-sbyte
-short
-ushort
-int
-uint
-long
-ulong
+From: https://docs.microsoft.com/en-us/archive/msdn-magazine/2003/july/net-column-calling-win32-dlls-in-csharp-with-p-invoke
+
+| Win32 Types |	Specification |	CLR Type |
+|-----------|---------|----------|
+|char, INT8, SBYTE, CHARâ€ |8-bit signed integer |	System.SByte|
+|short, short int, INT16, SHORT |	16-bit signed integer	| System.Int16|
+|int, long, long int, INT32, LONG32, BOOLâ€ , INT |	32-bit signed integer |	System.Int32|
+|__int64, INT64, LONGLONG	| 64-bit signed integer |	System.Int64|
+|unsigned char, UINT8, UCHARâ€ , BYTE	| 8-bit unsigned integer | System.Byte|
+|unsigned short, UINT16, USHORT, WORD, ATOM, WCHARâ€ , __wchar_t |	16-bit unsigned integer |	System.UInt16|
+|unsigned, unsigned int, UINT32, ULONG32, DWORD32, ULONG, DWORD, UINT |	32-bit unsigned integer	| System.UInt32|
+|unsigned __int64, UINT64, DWORDLONG, ULONGLONG	| 64-bit unsigned integer	| System.UInt64|
+|float, FLOAT |	Single-precision floating point |	System.Single|
+|double, long double, DOUBLE	| Double-precision floating point | System.Double|
+In Win32 this type is an integer with a specially assigned meaning; in contrast, the CLR provides a specific type devoted to this meaning.
